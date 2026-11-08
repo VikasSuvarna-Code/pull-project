@@ -5,9 +5,9 @@ const taskList = document.getElementById("taskList");
 const taskCount = document.getElementById("taskCount");
 
 let tasks = [];
-
+// Update function
 function updateTaskCount() {
-    taskCount.textContent = `Total Tasks: ${tasks.length}`;
+    taskCount.textContent = `Total Number of Tasks: ${tasks.length}`;
 }
 
 function addTask() {
